@@ -23,7 +23,7 @@ body {
 }
 
 #container {
-    width: 50%;
+    width: 60%;
     margin: 15% 35%;
 }
 
@@ -51,7 +51,7 @@ ul {
     background: #242424;
     list-style-type: none;
     margin: 0px;
-    padding: 0px 25px 15px 20px;
+    padding: 0px 65px 15px 20px;
 }
 
 h1 {
