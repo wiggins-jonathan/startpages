@@ -1,14 +1,12 @@
 /* Global Settings */
 
 * {
-    font-family: Helvetica, Monospace, sans-serif;
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 1.5;
+    font: 16px/1.5 Helvetica, Monospace, sans-serif;
+    color: #fff;
 }
 
 body {
-    background: #000000;
+    background: #000;
     height: 900px;
     display: flex;
     justify-content: center;
@@ -17,7 +15,7 @@ body {
 
 a, a:visited, a:active {
     text-decoration: none;
-    color: #FF4AAB;
+    color: #ff4aab;
 }
 
 a:hover {
@@ -40,12 +38,12 @@ a:hover {
 }
 
 #search_bar .blue {
-    color: #03A9F4;
+    color: #03a9f4;
     padding: 0px 0px 0px 5px;
 }
 
 #search_bar .green {
-    color: #50FF4A;
+    color: #50ff4a;
     padding: 0px 0px 0px 5px;
 }
 
@@ -80,10 +78,10 @@ a:hover {
 }
 
 .blue {
-    color: #03A9F4;
+    color: #03a9f4;
 }
 
 .green {
-    color: #50FF4A;
+    color: #50ff4a;
 }
 
