@@ -1,87 +1,87 @@
 /* Global Settings */
 
 * {
-    font: 16px/1.5 Helvetica, Monospace, sans-serif;
-    color: #fff;
+  font  : 16px/1.5 Helvetica, Monospace, sans-serif;
+  color : #fff;
 }
 
 body {
-    background: #000;
-    height: 900px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background      : #000;
+  height          : 900px;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
 }
 
 a, a:visited, a:active {
-    text-decoration: none;
-    color: #ff4aab;
+  text-decoration : none;
+  color           : #ff4aab;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #container {
-    width: 40%;
+  width: 40%;
 }
 
 /* Search Bar */
 
 #search_bar {
-    background: #242424;
+  background: #242424;
 }
 
 #search_bar form {
-    display: flex;
-    align-items: center;
+  display     : flex;
+  align-items : center;
 }
 
 #search_bar .blue {
-    color: #03a9f4;
-    padding: 0px 0px 0px 5px;
+  color   : #03a9f4;
+  padding : 0px 0px 0px 5px;
 }
 
 #search_bar .green {
-    color: #50ff4a;
-    padding: 0px 0px 0px 5px;
+  color   : #50ff4a;
+  padding : 0px 0px 0px 5px;
 }
 
 #search_bar input {
-    background: none;
-    border: none;
-    padding: 0px 0px 0px 5px;
-    flex-grow: 1;
+  background  : none;
+  border      : none;
+  padding     : 0px 0px 0px 5px;
+  flex-grow   : 1;
 }
 
 /* Links */
 
 #main_nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#news, #prod, #warez, #servers {
-    background: #242424;
+  display         : flex;
+  flex-wrap       : wrap;
+  justify-content : space-between;
 }
 
 #main_nav ul {
-    list-style-type: none;
-    padding: 0 20px;
-    margin: 10px 0px 0px 0px;
+  list-style-type : none;
+  padding         : 0 20px;
+  margin          : 10px 0px 0px 0px;
 }
 
 #main_nav h1 {
-    padding: 0;
-    margin: 0;
+  padding : 0;
+  margin  : 0;
+}
+
+#news, #prod, #warez, #servers {
+  background: #242424;
 }
 
 .blue {
-    color: #03a9f4;
+  color: #03a9f4;
 }
 
 .green {
-    color: #50ff4a;
+  color: #50ff4a;
 }
 
